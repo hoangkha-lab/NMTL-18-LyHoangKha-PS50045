@@ -4,7 +4,7 @@ int main() {
     float gia_gao = 2;
     float gia_dau = 1.5;
     float ti_gia_do = 26.29;
-
+    
     float so_luong_gao, so_luong_dau;
     float tong_tien_do, tong_tien_vnd;
 

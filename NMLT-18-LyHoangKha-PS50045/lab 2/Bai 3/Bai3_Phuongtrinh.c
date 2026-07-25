@@ -1,8 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> //khai bao thu vien
 
 int main   (){
-    float a,b,x;
+    float a,b,x; //khai bao cac bien a, b, x de luu tru he so a, b va nghiem cua phuong trinh bac nhat
 
     do {
         printf("Nhap he so a (a khac 0): ");

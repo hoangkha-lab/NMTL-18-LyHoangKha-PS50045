@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-#define PI 3.14159
+#include <stdio.h> //   khai bao thu vien
+#define PI 3.14159 //khai bao hang so PI de tinh chu vi va dien tich hinh tron
 
 int main(){
-    float chieudaiHCN, chieurongHCN, bankinhHT, chuviHCN, dientichHCN, chuviHT, dientichHT;
+    float chieudaiHCN, chieurongHCN, bankinhHT, chuviHCN, dientichHCN, chuviHT, dientichHT; //khai bao cac bien de luu tru chieu dai, chieu rong, ban kinh, chu vi va dien tich cua hinh chu nhat va hinh tron
 
     printf("Nhap chieu dai hinh chu nhat: ");
     scanf("%f", &chieudaiHCN);

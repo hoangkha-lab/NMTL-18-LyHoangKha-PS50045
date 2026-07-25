@@ -29,6 +29,7 @@ int main()
     }
     else if (a >= 8 && a < 9)
     { 
+    }
     else if (a >= 7 && a < 8)
     {
      printf("Hoc luc kha\n");     

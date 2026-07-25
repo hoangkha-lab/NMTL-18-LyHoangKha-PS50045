@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> //khai bao thu vien
 
 int main (){
     char mssv[20];

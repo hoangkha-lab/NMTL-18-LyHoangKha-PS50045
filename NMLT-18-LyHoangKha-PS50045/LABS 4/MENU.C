@@ -1,6 +1,9 @@
-#include <stdio.h>
+#include <stdio.h> //khai bao thu vien
+
 int main()
 {
+
+
     int chon;
     do
     {

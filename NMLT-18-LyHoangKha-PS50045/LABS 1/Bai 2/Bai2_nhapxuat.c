@@ -1,4 +1,5 @@
 #include <stdio.h> //khai bao thu vien
+#include <stdlib.h>
 
 int main (){ //ham chinh cua truong trinh
     char mssv[20]; //khai bao bien mssv de luu tru ma so sinh vien
@@ -31,7 +32,8 @@ int main (){ //ham chinh cua truong trinh
     printf("Nam sinh: %d\n", namsinh);  
     printf("Tuoi: %d\n", tuoi);
     printf("Diem trung binh: %.2f\n", diemTB);
-
+{
     system("pause");
     return 0;
+}
 }

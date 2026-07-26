@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <math.h>   
+int main ()
+{
+int chon, a, b, c, d;
+int bac1, bac2, bac3, bac4, bac5, bac6; 
+float t, x1, x2, delta;
+do
+{
+        printf("+---------------------------------------------------+\n");
+        printf("|                    MENU CHUONG TRINH              |\n");
+        printf("+---------------------------------------------------+\n");
+        printf("|  0. Thoat chuong trinh                            |\n");
+        printf("|  1. Kiem tra so nguyen                            |\n");
+        printf("|  2. Tim uoc so chung va boi so chung cua 2 so     |\n");
+        printf("|  3. Chuong trinh tinh tien cho quan Karaoke       |\n");
+        printf("+---------------------------------------------------+\n");
+        printf(">> Chon chuc nang cua ban (0-3): ");
+        scanf("%d", &chon);
+        switch (chon)
+        {
+        case 0:
+        printf("Bro da chon chuc nang so 0. Thoat chuong trinh\n");
+        break;  
+        
+        case 1:
+        printf("Bro da chon chuc nang so 1. Kiem tra so nguyen \n");
+        printf("Bro can nhap mot so nguyen : ");
+        scanf("%d", &a);
+        break;
+        
+        case 2:
+        printf("Bro da chon chuc nang so 2. Tim uoc so chung va boi so chung cua 2 so \n");
+        printf("Bro can nhap 2 so nguyen : ");
+        scanf("%d %d", &a, &b);
+        break;  
+        
+        case 3:
+        printf("Bro da chon chuc nang so 3. Chuong trinh tinh tien cho quan Karaoke \n");
+        break ;
+        default:
+        printf("Bro can phai chon chuc nang tu so 0 den so 3\n : ");
+        break;
+        }               
+}while (chon != 0);
+return 0;
+}       
+
+             

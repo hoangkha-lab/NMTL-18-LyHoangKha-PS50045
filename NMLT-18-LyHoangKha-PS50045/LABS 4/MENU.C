@@ -6,7 +6,7 @@ int main()
     do
     {
         printf("-------------------------------------------------\n");
-        printf("|                 CHON CHUC NANG                |\n");
+        printf("|            MOI ONG CHU CHON CHUC NANG         |\n");
         printf("-------------------------------------------------\n");
         printf("| 0.  Thoat chuong trinh                        |\n");
         printf("| 1.  Kiem tra so nguyen                        |\n");

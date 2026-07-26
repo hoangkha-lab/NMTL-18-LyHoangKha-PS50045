@@ -1,6 +1,4 @@
 #include <stdio.h> //khai bao thu vien
-#include <stdlib.h> // khai bao thu vien cho ham system
-
 int main () 
 {
     char mssv[20]; //   khai bao bien mssv de luu tru ma so sinh vien      
@@ -29,7 +27,9 @@ int main ()
     printf("Ho va ten: %s", Hoten);
     printf("Diem trung binh: %.2f\n", dTB);
    
+   {
     system("pause");
     return 0;
+   }
 
 }

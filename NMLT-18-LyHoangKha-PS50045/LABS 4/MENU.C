@@ -1,10 +1,10 @@
-#include <studio.h>
-#include <nmath.h>
+#include <stdio.h>
+#include <math.h>
 int main()
 {
-int chon;
-do
-}
+    int chon;
+    do
+    {
         printf("-------------------------------------------------\n");
         printf("|                 CHON CHUC NANG                |\n");
         printf("-------------------------------------------------\n");
@@ -23,46 +23,63 @@ do
         printf("Nhap lua chon cua ban: ");
         scanf("%d", &chon);
         switch(chon)
-{
-case  0:
-{ 
-printf("Ong chu da chon chuc nang so 0. Thoat chuong trinh \n");
-break;
+        {
+            case 0:
+            {
+            printf("Ong chu da chon che do so 0. Thoat chuong trinh\n");
+            break;
+            }
+            case 1:
+            {
+            printf("Ong chu da chon che do so 1. Nhap X \n");
+            break;
+            }
+            case 2:
+            {
+            printf("Ong chu da chon che do so 2. Nhap X \n");
+            break;
+            }
+            case 3:
+            {
+                printf("Ong chu da chon che do so 3. Nhap so Kw \n");
+                break;
+            }
+            case 4:
+            {
+                printf("Ong chu da chon che do so 4. Nhap so tien dien \n");
+                break;
+            }
+            case 5:
+            {
+                printf("Ong chu da chon che do so 5. Nhap ten moi \n");
+                break;
+            }
+            case 6:
+            {
+                printf("Ong chu da chon che do so 6. Nhap so tien da vay \n");
+                break;
+            }
+            case 7:
+            {
+                printf("Ong chu da chon che do so 7. Nhap so tien vay \n");
+                break;
+            }
+            case 8:
+            {
+                printf("Ong chu da chon che do so 8. Nhap so sinh vien \n");
+                break;
+            }
+            case 9:
+            {
+                printf("Ong chu da chon che do so 9. Chuan bi bat dau tro choi \n");
+                break;
+            }
+            case 10:
+            {
+                printf("Ong chu da chon che do so 10. Nhap so phan so \n");
+                break;
+            }
+        }
+    } while (chon != 0);
+    return 0;
 }
-case 1:
-{
-printf(" Ong chu da chon chuc nang so 1. Moi ong chu nhap X \n");
-break;
-}
-case 2:
-{ 
-printf(" Ong chu da chon chuc nang so 2. Moi ong chu nhap X \n");
-break;
-}
-case 3:
-{
-printf(" Ong chu da chon chuc nang so 3. Moi ong chu nhap so Kw \n");
-break;
-}   
-case 4:
-{       
-printf(" Ong chu da chon chuc nang so 4. Moi ong chu nhap so tien dien  \n");
-break;
-}
-case 5:
-{       
-printf(" Ong chu da chon chuc nang so 5. Moi ong chu dat ten cho minh a  \n");
-break;
-}       
-case 6:
-{   
-printf(" Ong chu da chon chuc nang so 6. Moi ong chu nhap so tien da vay  \n");
-break;
-}   
-case 7:
-{   
-printf(" Ong chu da chon chuc nang so 7. Moi ong chu nhap so tien muon vay \n");
-break;
-}
-case 8:
-{

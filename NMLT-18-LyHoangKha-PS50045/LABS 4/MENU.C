@@ -20,7 +20,7 @@ int main()
         printf("| 9.  Game Poly-LoTT                            |\n");
         printf("| 10. Tinh toan phan so                         |\n");
         printf("-------------------------------------------------\n");
-        printf("Nhap lua chon cua ban: ");
+        printf("Moi ong chu chon chuc nang: ");
         scanf("%d", &chon);
         switch(chon)
         {

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/hoang/OneDrive/Tài liệu/GitHub/NMTL-LyHoangKha-PS50045",
-      "program": "c:/Users/hoang/OneDrive/Tài liệu/GitHub/NMTL-LyHoangKha-PS50045/build/Debug/outDebug",
+      "cwd": "c:/Users/hoang/OneDrive/Tài liệu/GitHub/NMTL-LyHoangKha-PS50045/NMLT-18-LyHoangKha-PS50045/LABS 5",
+      "program": "c:/Users/hoang/OneDrive/Tài liệu/GitHub/NMTL-LyHoangKha-PS50045/NMLT-18-LyHoangKha-PS50045/LABS 5/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

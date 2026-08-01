@@ -1,4 +1,10 @@
 #include <stdio.h>
+#include <stdbool.h>
+void menu();
+void chucNang1();
+void chucNang2();
+void chucNang3();
+void chucNang4();
 int main()
 {
     int chon;
@@ -17,7 +23,4 @@ int main()
         printf("+---------------------------------------------------+\n");
         printf(">> Xin mời chọn chức năng (1-5): ");
 
-    }
-
-    return 0;
-}
+  }

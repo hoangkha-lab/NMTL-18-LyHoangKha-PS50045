@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>   // thu vien
 #include <stdlib.h>
 
 int main (){
@@ -11,7 +11,7 @@ int main (){
     printf("--- NHAP THONG TIN SINH VIEN ---\n");
 
     printf("NHAP MA SO SINH VIEN: ");
-    scanf("%s", mssv);
+    scanf("%s", mssv); // sacnf nhap tu ban phim
 
     getchar();
 

@@ -218,7 +218,8 @@ int main() {
         scanf("%d", &chon);
 
         // Cấu trúc điều kiện switch-case để gọi hàm tương ứng với lựa chọn
-        switch (chon) {
+        switch (chon) { //swaitch dung de tuong tac voi chuot
+        
             case 1: kiemTraSoNguyen(); break;
             case 2: timUCLNBCNN(); break;
             case 3: karaoke(); break;

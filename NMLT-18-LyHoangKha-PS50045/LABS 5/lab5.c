@@ -83,10 +83,11 @@ void chucNang2(){
 // 1 nhuan.   0 khong nhuan
 //Năm nhuận là năm chia hết cho 400, hoặc chia hết cho 4 nhưng không chia hết cho 100
 bool kiemTraNamNhuan(int nam){
-    if(nam%400==0 || (nam%4==0 && nam%100!=0))
+    if ((nam % 400 == 0) || (nam % 4 == 0 && nam % 100 != 0)) {
         return true;
-    else
+    } else {
         return false;
+    }
 }
 #include <stdio.h>
 #include <stdbool.h>

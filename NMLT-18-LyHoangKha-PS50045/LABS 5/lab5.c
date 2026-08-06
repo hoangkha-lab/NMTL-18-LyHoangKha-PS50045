@@ -52,3 +52,20 @@ int main(){
     printf("| 5. Thoát chương trình                             |\n");
     printf("+---------------------------------------------------+\n");
 }
+void chucNang1(){
+    int a,b,c;
+    printf("Nhap a,b,c: ");
+    scanf("%d%d%d",&a,&b,&c);
+    printf("So lon nhat: %d\n",soLonNhat(a,b,c));
+}
+
+int soLonNhat(int a, int b, int c){
+    int lonNhat = a;
+    if(lonNhat<b){
+        lonNhat = b;
+    }else if (lonNhat < c)
+    {
+        lonNhat = c;
+    }
+    return lonNhat;
+}

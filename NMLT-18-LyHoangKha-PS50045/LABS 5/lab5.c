@@ -87,7 +87,8 @@ bool kiemTraNamNhuan(int nam){
         return true;
     else
         return false;
-}#include <stdio.h>
+}
+#include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
 void menu();
@@ -202,7 +203,7 @@ void chucNang4(){
     scanf("%d%d%d",&a,&b,&c);
     printf("%s\n",checkTriangle(a,b,c));
 }
-
+    
 //tri tuyet doi |6 - 4| = 2  abs
 const char* checkTriangle(float a, float b, float c){
 if(a+b>c && a+c>b && b+c>a && a>0 && b>0 && c>0)

@@ -69,3 +69,22 @@ int soLonNhat(int a, int b, int c){
     }
     return lonNhat;
 }
+//2. Kiểm tra Năm nhuận  
+void chucNang2(){
+    int nam;
+    printf("Nhap nam: ");
+    scanf("%d",&nam);
+    if(kiemTraNamNhuan(nam)){
+        printf("Nam %d la nam nhuan\n",nam);
+    }else{
+        printf("Nam %d khong phai la nam nhuan\n",nam);
+    }
+}
+// 1 nhuan.   0 khong nhuan
+//Năm nhuận là năm chia hết cho 400, hoặc chia hết cho 4 nhưng không chia hết cho 100
+bool kiemTraNamNhuan(int nam){
+    if(nam%400==0 || (nam%4==0 && nam%100!=0))
+        return true;
+    else
+        return false;
+}

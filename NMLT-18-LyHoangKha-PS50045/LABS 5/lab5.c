@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
+#include <windows.h>
 void menu();
 void chucNang1();
 void chucNang2();

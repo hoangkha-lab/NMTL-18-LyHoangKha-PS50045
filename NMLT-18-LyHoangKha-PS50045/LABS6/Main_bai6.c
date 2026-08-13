@@ -15,7 +15,7 @@ void timMaxMin(int a[], int n);
 void sapXepGiamDan(int a[], int n);
 void swap(int *a, int *b);
 
-// Bổ sung khai báo các hàm ma trận ở đầu file
+// Bo sung khai bao cac ham ma tran o dau file
 void matranbinhphuong(int a[10][10], int n);
 void locvaxuatvitricacsoletrongmatran(int a[10][10], int n);
 
@@ -25,7 +25,7 @@ int main()
     do
     {
         menu();
-        printf(">> Xin mời chọn chức năng (1-6): ");
+        printf(">> Xin moi chon chuc nang (1-6): ");
         scanf("%d", &chon);
         switch (chon)
         {
@@ -59,14 +59,14 @@ int main()
 void menu()
 {
     printf("+---------------------------------------------------+\n");
-    printf("|             MENU CHƯƠNG TRÌNH LAB 6               |\n");
+    printf("|             MENU CHUONG TRINH LAB 6               |\n");
     printf("+---------------------------------------------------+\n");
-    printf("| 1. Tính trung bình tổng số chia hết cho 3 và 5    |\n");
-    printf("| 2. Tìm giá trị Lớn nhất và Nhỏ nhất trong Mảng    |\n");
-    printf("| 3. Sắp xếp Mảng theo thứ tự Giảm dần              |\n");
-    printf("| 4. Ma trận bình phương (Mảng 2 chiều)             |\n");
-    printf("| 5. Lọc và xuất vị trí các Số lẻ trong Ma trận     |\n");
-    printf("| 6. Thoát chương trình                             |\n");
+    printf("| 1. Tinh trung binh tong so chia het cho 3 va 5    |\n");
+    printf("| 2. Tim gia tri Lon nhat va Nho nhat trong Mang    |\n");
+    printf("| 3. Sap xep Mang theo thu tu Giam dan              |\n");
+    printf("| 4. Ma tran binh phuong (Mang 2 chieu)             |\n");
+    printf("| 5. Loc va xuat vi tri cac So le trong Ma tran     |\n");
+    printf("| 6. Thoat chuong trinh                             |\n");
     printf("+---------------------------------------------------+\n");
 }
 
@@ -134,7 +134,7 @@ void chucNang4()
     printf("Nhap n (so hang/cot): ");
     scanf("%d", &n);
     matranbinhphuong(a, n);
-    printf("Ma tran bình phuong:\n");
+    printf("Ma tran binh phuong:\n");
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
@@ -201,7 +201,7 @@ void sapXepGiamDan(int a[], int n)
     {
         for (int j = i + 1; j < n; j++)
         {
-            if (a[i] < a[j]) // Đã sửa: < để sắp xếp giảm dần
+            if (a[i] < a[j])
             {
                 swap(&a[i], &a[j]);
             }
@@ -225,7 +225,7 @@ void matranbinhphuong(int a[10][10], int n)
             int val;
             printf("A[%d][%d] = ", i, j);
             scanf("%d", &val);
-            a[i][j] = val * val; // Bình phương giá trị nhập vào
+            a[i][j] = val * val;
         }
     }
 }

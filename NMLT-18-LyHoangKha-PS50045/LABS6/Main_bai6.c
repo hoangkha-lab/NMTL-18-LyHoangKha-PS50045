@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <math.h>
 #include <float.h>
+
 void menu();
 void chucNang1();
 void chucNang2();
@@ -13,6 +14,11 @@ float tinhTrungBinhCong(int a[], int n);
 void timMaxMin(int a[], int n);
 void sapXepGiamDan(int a[], int n);
 void swap(int *a, int *b);
+
+// Bổ sung khai báo các hàm ma trận ở đầu file
+void matranbinhphuong(int a[10][10], int n);
+void locvaxuatvitricacsoletrongmatran(int a[10][10], int n);
+
 int main()
 {
     int chon;
@@ -39,7 +45,7 @@ int main()
             chucNang5();
             break;
         case 6:
-            printf("Tam biet!");
+            printf("Tam biet!\n");
             break;
         default:
             printf("Ban phai chon chuc nang tu 1 - 6\n");
@@ -125,17 +131,17 @@ void chucNang4()
 {
     int n;
     int a[10][10];
-    printf("Nhap n: ");
+    printf("Nhap n (so hang/cot): ");
     scanf("%d", &n);
     matranbinhphuong(a, n);
-    printf("Ma tran binh phuong:\n");
+    printf("Ma tran bình phuong:\n");
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
             printf("%d\t", a[i][j]);
         }
-printf("\n");
+        printf("\n");
     }
 }
 
@@ -143,7 +149,7 @@ void chucNang5()
 {
     int n;
     int a[10][10];
-    printf("Nhap n: ");
+    printf("Nhap n (so hang/cot): ");
     scanf("%d", &n);
     matranbinhphuong(a, n);
     locvaxuatvitricacsoletrongmatran(a, n);
@@ -173,9 +179,8 @@ float tinhTrungBinhCong(int a[], int n)
 
 void timMaxMin(int a[], int n)
 {
-    int min, max;
-    min = a[0];
-    max = a[0];
+    int min = a[0];
+    int max = a[0];
     for (int i = 1; i < n; i++)
     {
         if (min > a[i])
@@ -196,28 +201,35 @@ void sapXepGiamDan(int a[], int n)
     {
         for (int j = i + 1; j < n; j++)
         {
-            if (a[i] > a[j])
+            if (a[i] < a[j]) // Đã sửa: < để sắp xếp giảm dần
             {
                 swap(&a[i], &a[j]);
             }
         }
     }
+    printf("Mang sau khi sap xep giam dan:\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t", a[i]);
     }
     printf("\n");
 }
+
 void matranbinhphuong(int a[10][10], int n)
 {
+    printf("Nhap cac phan tu cho ma tran:\n");
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            a[i][j] = (i + 1) * (j + 1);
+            int val;
+            printf("A[%d][%d] = ", i, j);
+            scanf("%d", &val);
+            a[i][j] = val * val; // Bình phương giá trị nhập vào
         }
     }
 }
+
 void locvaxuatvitricacsoletrongmatran(int a[10][10], int n)
 {
     printf("Cac so le trong ma tran:\n");

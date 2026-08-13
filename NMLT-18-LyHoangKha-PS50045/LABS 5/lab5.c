@@ -46,13 +46,13 @@ int main(){
 
 void menu(){
     printf("+---------------------------------------------------+\n");
-    printf("|             MENU CHƯƠNG TRÌNH LAB 5               |\n");
+    printf("|             MENU CHUONG TRINH LAB 5               |\n");
     printf("+---------------------------------------------------+\n");
-    printf("| 1. Tìm giá trị lớn nhất trong 3 số                |\n");
-    printf("| 2. Kiểm tra Năm nhuận                             |\n");
-    printf("| 3. Hoán vị 2 số (Sử dụng Con trỏ)                 |\n");
-    printf("| 4. Kiểm tra & Phân loại Tam giác                  |\n");
-    printf("| 5. Thoát chương trình                             |\n");
+    printf("| 1. Tim gia tri lon nhat trong 3 so                |\n");
+    printf("| 2. Kiem tra Nam nhuan                             |\n");
+    printf("| 3. Hoan vi 2 so (Su dung Con tro)                 |\n");
+    printf("| 4. Kiem tra & Phan loai Tam giac                  |\n");
+    printf("| 5. Thoat chuong trinh                             |\n");
     printf("+---------------------------------------------------+\n");
 }
 

@@ -16,7 +16,7 @@ int main(){
     do
     {
         menu();
-        printf(">> Xin mời chọn chức năng (1-5): ");
+        printf(">> Xin moi chon chuc nang (1-5): ");
         scanf("%d",&chon);
         switch (chon)
         {

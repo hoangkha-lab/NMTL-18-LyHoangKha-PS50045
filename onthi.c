@@ -6,10 +6,10 @@ int main() { // hàm main là hàm chính của chương trình sẽ khỏi ch�
     do {
         printf("Xin hay nhap do tuoi cua ban: ");
         scanf("%d", &tuoi); // la dung de nhap xuất thông tin của biến madf bạn đa khai báo ở trên
-        if (tuoi <= 0 || tuoi >= 2000) { // if là ở đây là nếu cũng có nghĩa là điều khiện của bạn nếu đúng nó sẽ xuất ra kết quả ở mục printf ở dưới.
+        if (tuoi <= 0 || tuoi >= 55) { // if là ở đây là nếu cũng có nghĩa là điều khiện của bạn nếu đúng nó sẽ xuất ra kết quả ở mục printf ở dưới.
             printf("Tuoi khong hop le, vui long nhap lai!\n"); // dòng này nó sẽ thông báo nếu kết quả của bạn bị 
         }
-    } while (tuoi <= 0 || tuoi >= 2000) ;
+    } while (tuoi <= 0 || tuoi >= 55) ;
 
     // 2. Xét độ tuổi
     
@@ -25,8 +25,6 @@ int main() { // hàm main là hàm chính của chương trình sẽ khỏi ch�
         printf("Trung nien\n");
     } else if (tuoi >= 55) { // Tuoi >= 55
         printf("Nguoi cao tuoi\n");
-    }else if (tuoi <2000) { // Tuoi >= 55
-        printf("Khong phai con nguoi nua, Nam mo a di da phat\n");
     }
  return 0;
 }

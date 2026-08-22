@@ -13,7 +13,7 @@ int main() { // hàm main là hàm chính của chương trình sẽ khỏi ch�
 
     // 2. Xét độ tuổi
     
-     if (tuoi < 13) { // Tuoi tu 13 den 14
+     if (tuoi < 13) { // Tuoi tu 13 den 14 //if va else la dieu kien neu thi neu if nhu dieu kien dat ra thi ket qua se xuat ra dung, con neu  ket qua nguoi nhap vao sai thi ket qua se bao nguoi dung nhap lai ket qua khac
         printf("Tre em\n");
     } else if ( tuoi < 15){
         printf("Vi thanh nien\n");
@@ -28,4 +28,3 @@ int main() { // hàm main là hàm chính của chương trình sẽ khỏi ch�
     }
  return 0;
 }
-

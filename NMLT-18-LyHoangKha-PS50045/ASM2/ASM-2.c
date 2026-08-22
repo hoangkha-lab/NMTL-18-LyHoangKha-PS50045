@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #define MAX 50
-
 //================= CHỨC NĂNG 1 =================
 void kiemTraSoNguyen() {
     float x;

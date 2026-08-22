@@ -8,7 +8,6 @@ int main() {
     scanf("%f", &d); // Nhập điểm d từ bàn phím %f dành cho kiểu float
         
         
-        
     
         
     // noi dung nhap vao neu  ngoai khoan 0 va 10 se bao loi va se yeu cau nhap lai 

@@ -11,7 +11,7 @@ int main() {
     
         
     // noi dung nhap vao neu  ngoai khoan 0 va 10 se bao loi va se yeu cau nhap lai 
-    if (d < 0 || d > 10) {// Nếu d < 0 hoặc d > 10 thì code se thông báo lỗi
+    if (d < 0 || d > 10) {//dieu kien d < 0 hoặc d > 10 thì code se thông báo lỗi
     printf("Diem cua ban khong hop le.Xin vui long nhap lai! \n"); //day la thong bao khi du lieu nhap vao khong chinh xac voi dieu kien if
     }
     } while (d < 0 || d > 10); // Lặp lại việc nhập nếu dieu kien van la  d < 0 hoặc d > 10

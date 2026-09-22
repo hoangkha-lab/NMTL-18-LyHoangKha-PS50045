@@ -2,14 +2,57 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "bai1",
+      "request": "launch",
+      "mainClass": "LAB2.bai1",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "Bai2",
+      "request": "launch",
+      "mainClass": "LAB2.Bai2",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "bai3",
+      "request": "launch",
+      "mainClass": "bai3",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "bai2",
+      "request": "launch",
+      "mainClass": "bai2",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "lab1",
+      "request": "launch",
+      "mainClass": "lab1",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98",
+      "encoding": "UTF-8"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+      "encoding": "UTF-8"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/hoang/OneDrive/Tài liệu/GitHub/NMTL-LyHoangKha-PS50045/NMLT-18-LyHoangKha-PS50045/LABS 5",
-      "program": "c:/Users/hoang/OneDrive/Tài liệu/GitHub/NMTL-LyHoangKha-PS50045/NMLT-18-LyHoangKha-PS50045/LABS 5/build/Debug/outDebug",
+      "cwd": "c:/Users/hoang/OneDrive/Tài liệu/GitHub/NMTL-LyHoangKha-PS50045",
+      "program": "c:/Users/hoang/OneDrive/Tài liệu/GitHub/NMTL-LyHoangKha-PS50045/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

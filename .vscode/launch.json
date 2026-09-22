@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bai4",
+      "request": "launch",
+      "mainClass": "LAB2.bai4",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "bai2",
+      "request": "launch",
+      "mainClass": "LAB2.bai2",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
       "name": "bai1",
       "request": "launch",
       "mainClass": "LAB2.bai1",

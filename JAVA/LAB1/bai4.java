@@ -1,7 +1,6 @@
-package LAB2;
 
+import package bai4.java;
 import java.util.Scanner;
-
 public class bai4 {
     public static void main(String[] args) {
         Scanner nhap = new Scanner(System.in);

@@ -1,5 +1,5 @@
 //Bai 4: Nhap chieu dai, chieu rong. Tinh chu vi, dien tich hinh chu nhat
-
+import package bai3.java;
 import java.util.Scanner;
 
 public class bai3 {

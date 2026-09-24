@@ -1,7 +1,6 @@
 //Bai 3: Nhap ban kinh. Tinh chu vi, dien tich
-
+import package bai2.java;
 import java.util.Scanner;
-
 public class bai2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

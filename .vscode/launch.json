@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bai1",
+      "request": "launch",
+      "mainClass": "JAVA.LAB1.bai1",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "bai2",
+      "request": "launch",
+      "mainClass": "JAVA.LAB1.bai2",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "bai1",
+      "request": "launch",
+      "mainClass": "JAVA.bai1",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "bai3",
+      "request": "launch",
+      "mainClass": "JAVA.bai3",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "bai2",
+      "request": "launch",
+      "mainClass": "JAVA.bai2",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "main",
+      "projectName": "NMTL-LyHoangKha-PS50045_af941e98"
+    },
+    {
+      "type": "java",
       "name": "bai4",
       "request": "launch",
       "mainClass": "LAB2.bai4",
